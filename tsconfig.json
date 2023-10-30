@@ -1,0 +1,10 @@
+{
+    "extends": "astro/tsconfigs/strict",
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "baseUrl": ".",
+        "paths": {
+            "@tinacms/datalayer": ["node_modules/@tinacms/datalayer/dist/index.d.ts"]
+        }
+    }
+}
