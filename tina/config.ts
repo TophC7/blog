@@ -1,6 +1,4 @@
-import dotenv from "dotenv";
 import { defineConfig } from "tinacms";
-dotenv.config();
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
